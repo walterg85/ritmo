@@ -185,13 +185,13 @@
 }
 
 #welcome .card.card-shadow {
-    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    -webkit-box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.1);
+    box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.1);
 }
 
 #welcome .img-shadow {
-    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.3);
-    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.3);
+    -webkit-box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.3);
+    box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.3);
 }
 
 #welcome .wrap-sec-welcome .img-hover {
@@ -207,11 +207,11 @@
 }
 
 #welcome .wrap-sec-welcome .uneven-box {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 #welcome .rounded {
-  border-radius: 2rem!important;
+  border-radius: 1rem!important;
 }
 
 @media (max-width: 767px) {
