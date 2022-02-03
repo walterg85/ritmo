@@ -28,7 +28,6 @@
     color: #fff;
 }
 
-
 /*Hero seccion*/
 #hero {
   width: 100%;
@@ -104,4 +103,119 @@
 /*Header*/
 .header-top {
 
+}
+
+/*seccion top music*/
+.radio1 {
+    position: relative;
+    border-top: 1px solid #343434;
+    min-height: 92px;
+}
+
+.radio1 > div {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.radio1 .sec1 {
+    width: 25%;
+    color: #959595;
+}
+
+.radio1 .sec2 {
+    width: 47%;
+}
+
+.sec2-music {
+    position: relative;
+}
+
+.sec2-music .caption .top {
+    padding-bottom: 2px;
+}
+
+.sec2-music .caption .txt1 {
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.sec2-music .caption .txt2 {
+    display: inline-block;
+}
+
+.sec2-music figure {
+    margin: 0 15px 0 0;
+    float: left;
+}
+
+.sec2-music .caption .txt3 {
+    font-size: 13px;
+    color: #8f8f8f;
+}
+
+.ic2 {
+    display: inline-block;
+    font-size: 13px;
+    color: #8f8f8f;
+    padding-right: 15px;
+}
+
+.ic2 i {
+    color: #fff;
+}
+
+.radio1 .sec4 {
+    width: 14%;
+    padding-right: 0;
+}
+
+.radio1 .sec1 .txt1 {
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+
+/*Seccion 1*/
+#welcome {
+    background: url(https://demo.gridgum.com/bootstrap/hit-radio/dark/images/bg1.jpg) 0 0 no-repeat #000;
+    background-size: cover;
+}
+
+#welcome .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+#welcome .img-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.3);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.3);
+}
+
+#welcome .wrap-sec-welcome .img-hover {
+  -webkit-transition: 0.2s ease-in;
+   -o-transition: 0.2s ease-in;
+   transition: 0.2s ease-in;
+}
+
+#welcome .wrap-sec-welcome .img-hover:hover {
+  -webkit-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#welcome .wrap-sec-welcome .uneven-box {
+    margin-top: 100px;
+}
+
+#welcome .rounded {
+  border-radius: 2rem!important;
+}
+
+@media (max-width: 767px) {
+    #welcome .wrap-sec-welcome .uneven-box {
+      margin-top: 0px;
+  }
 }
