@@ -43,6 +43,10 @@
     height: 100%;
 }
 
+.gb-gray-li {
+  background: #000000 !important;
+}
+
 /*Hero seccion*/
 #hero {
   width: 100%;
