@@ -28,6 +28,21 @@
     color: #fff;
 }
 
+.card{
+  background-color: unset !important;
+}
+
+.border-light {
+    border-color: #505050!important;
+}
+
+.blackBox {
+    background-color: hsl(0deg 0% 0% / 72%);
+    border-radius: 0.7rem !important;
+    padding: 1.5rem!important;
+    height: 100%;
+}
+
 /*Hero seccion*/
 #hero {
   width: 100%;
@@ -179,7 +194,7 @@
 }
 
 /*Seccion 1*/
-#welcome {
+.bg-img {
     background: url(https://demo.gridgum.com/bootstrap/hit-radio/dark/images/bg1.jpg) 0 0 no-repeat #000;
     background-size: cover;
 }
